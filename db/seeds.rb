@@ -21,6 +21,7 @@ cities_and_states = [['CE', 'Fortaleza'], ['SP', 'Sao Paulo'], ['RJ', 'Rio de Ja
     description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae fuga, nobis culpa quidem ipsum, quod exercitationem similique aliquam dolorem veniam praesentium! Adipisci ad deserunt illo, ab omnis distinctio quae at.',
     summary: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae fuga, nobis culpa quidem ipsum, quod exercitationem similique aliquam dolorem veniam praesentium! Adipisci ad deserunt illo, ab omnis distinctio quae at.'
   )
-
-  Profile.create!(name: 'Anunciante')
-  Profile.create!(name: 'Candidato')
+  if Profile.count == 0
+    Profile.create!(name: 'Anunciante')
+    Profile.create!(name: 'Candidato')
+  end
