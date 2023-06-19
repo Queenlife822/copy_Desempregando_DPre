@@ -7,6 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 user = User.create!(email: 'user@gmail.com', password: '123456', password_confirmation: '123456')
 
+
+
 company = Company.create!(name: 'Company Tech', url: 'https://google.com', user_id: user.id)
 company.logo.attach(io: File.open("#{Rails.root}/spec/fixtures/images/logo-tech.jpeg"), filename: 'logo-tech.jpeg')
 
@@ -19,3 +21,6 @@ cities_and_states = [['CE', 'Fortaleza'], ['SP', 'Sao Paulo'], ['RJ', 'Rio de Ja
     description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae fuga, nobis culpa quidem ipsum, quod exercitationem similique aliquam dolorem veniam praesentium! Adipisci ad deserunt illo, ab omnis distinctio quae at.',
     summary: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae fuga, nobis culpa quidem ipsum, quod exercitationem similique aliquam dolorem veniam praesentium! Adipisci ad deserunt illo, ab omnis distinctio quae at.'
   )
+
+  Profile.create!(name: 'Anunciante')
+  Profile.create!(name: 'Candidato')exit
