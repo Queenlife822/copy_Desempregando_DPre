@@ -23,4 +23,4 @@ cities_and_states = [['CE', 'Fortaleza'], ['SP', 'Sao Paulo'], ['RJ', 'Rio de Ja
   )
 
   Profile.create!(name: 'Anunciante')
-  Profile.create!(name: 'Candidato')exit
+  Profile.create!(name: 'Candidato')
