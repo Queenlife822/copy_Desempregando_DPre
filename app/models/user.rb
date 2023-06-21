@@ -8,7 +8,7 @@ class User < ApplicationRecord
   has_many :applicants
 
   def profile
-    Profile.find_by(:user => self.id)
-    
+    p = ProfileUser.find_by(:user_id  == self.id)
+    Profile.find_by(id: p.profile_id)
   end
 end
