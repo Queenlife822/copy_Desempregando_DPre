@@ -1,3 +1,44 @@
+#  Desempregando
+
+## Telas da Aplicação 
+**TELA 1 -
+  Esta é a tela de Inicio e ao clicar em  Login/cadastro poderá ir para a tela de cadastro**
+<p align="center" ><img src="test/inicio.png" width="800"></a><//>
+      
+**TELA 2 -
+  Ao clicar em login/cadastro aparecerá a tela de LOG IN , caso usuário já estiver cadastrado basta acessar com e-mail e senha , caso não tenha cadastro acesse o "Cadastrar" .**
+<p align="center" ><img src="test/login.png" width="800"></a><//>
+
+**TELA 3 - 
+  Esta tela o usuário poderá se cadastrar**
+<p align="center" ><img src="test/signup.png" width="800"></a><//>
+
+**TELA 4 -
+  Esta é a tela principal que o usuário terá acesso ao realizar o Login.**
+<p align="center" ><img src="test/Telalogin.png" width="800"></a><//>
+
+**TELA 5 -
+  Clicando em _ver mais_ o usuário terá as opções de cadastrar-se  e compartilhar a vaga**
+<p align="center" ><img src="test/Cadastrar.png" width="800"></a><//>
+
+**TELA 6 -
+  Clicando em _Minha empresa_ o usuário pode cadastrar  a empresa , com o nome site e logo da empresa**
+<p align="center" ><img src="test/criarempresa.png" width="800"></a><//>
+
+**TELA 7 -
+  Clicando em _Publicar vaga_ o usuário poderá publicar as vagas oferecidas pela empresa**
+<p align="center" ><img src="test/vaga.png" width="800"></a><//>
+
+**TELA 8 -
+  Clicando em _Minhas vagas_ o usuário poderá ter acesso as vagas publicadas**
+<p align="center" ><img src="test/minhasvagas.png" width="800"></a><//>
+
+
+## Link do repositório
+Use esse link  (https://github.com/Queenlife822/copy_Desempregando_DPre)
+
+
+
 ## Executem os comando
 
 ### docker-compose run --no-deps app rails new . --force --database=postgresql --webpacker
